@@ -78,6 +78,19 @@ ul {
   color: var(--color-grey);
 }
 
+.button.active {
+  /* background: var(--background-color);
+  color: var(--primary-white-color); */
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+  border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  background-color: var(--accent-color);
+}
+
 .button-filter {
   padding: 6px 22px;
   cursor: pointer;
@@ -87,22 +100,6 @@ ul {
   text-align: center;
   border-radius: 4px;
   border: none;
-}
-
-.button.portfolio:hover {
-  border: none;
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 6px 22px;
-  background-color: var(--accent-color);
-}
-
-.button.active {
-  /* background: var(--background-color);
-  color: var(--primary-white-color); */
-  background: var(--accent-color);
-  color: var(--primary-white-color);
 }
 
 .cards-list-title {
@@ -235,13 +232,9 @@ ul {
 }
 
 .card-item {
-  /* border: 1px solid teal;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-  margin-right: 10px;
-  margin-bottom: 10px; */
+  background: var(--primary-white-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
