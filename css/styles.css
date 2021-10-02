@@ -235,13 +235,16 @@ ul {
 }
 
 .card-item {
-  border: 1px solid teal;
+  /* border: 1px solid teal;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 262px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .filters-list {
   display: flex;
