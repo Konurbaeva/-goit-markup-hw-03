@@ -9,11 +9,12 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-section {
   background-color: var(--background-color-black);
+  text-align: center;
 }
 
 .hero-title {
@@ -267,4 +268,40 @@ ul {
 
 .header-email-link.link {
   color: var(--color-grey);
+}
+
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
+} */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
