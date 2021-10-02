@@ -150,6 +150,23 @@ ul {
   color: var(--background-color);
 }
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+  /* display: flex; */
+}
+
+.header-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 20px;
+}
+.header-contacts-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header-link.link.current {
   color: var(--accent-color);
   font-size: 14px;
@@ -333,9 +350,6 @@ ul {
   line-height: 1.43;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -345,16 +359,4 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.header-list {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-left: 20px;
-}
-.header-contacts-list {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
