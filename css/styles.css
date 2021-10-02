@@ -214,6 +214,15 @@ ul {
   display: flex;
 }
 
+.cards-list {
+  display: flex;
+}
+
+.filters-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .characteristics-list-paragraph {
   width: 270px;
   height: 75px;
