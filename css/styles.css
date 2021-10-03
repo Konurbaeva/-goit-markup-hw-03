@@ -103,13 +103,6 @@ ul {
   color: var(--primary-white-color);
 }
 
-.button-filter:hover,
-.button-filter:focus,
-.active {
-  background: var(--accent-color);
-  color: var(--main-color-title);
-}
-
 .button-filter {
   padding: 6px 22px;
   cursor: pointer;
