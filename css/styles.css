@@ -96,14 +96,18 @@ ul {
   color: var(--color-grey);
 }
 
-.button.active {
+.button-filter:hover,
+.button-filter:focus,
+.active {
+  background: var(--background-color);
   color: var(--primary-white-color);
-  border: none;
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 6px 22px;
-  background-color: var(--accent-color);
+}
+
+.button-filter:hover,
+.button-filter:focus,
+.active {
+  background: var(--accent-color);
+  color: var(--main-color-title);
 }
 
 .button-filter {
@@ -275,7 +279,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: 174px;
+  /* margin-top: 174px; */
 }
 
 .characteristics-list-paragraph {
@@ -477,4 +481,8 @@ img {
 
 .contact-list .item + .item {
   margin-left: 50px;
+}
+
+.filters-list .filters-item + .filters-item {
+  margin-left: 8px;
 }
