@@ -438,7 +438,7 @@ img {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header {
