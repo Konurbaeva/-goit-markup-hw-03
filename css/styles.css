@@ -235,6 +235,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .our-work {
@@ -426,6 +427,7 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 img {
@@ -511,6 +513,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--color-grey);
+  text-align: left;
 }
 
 .our-team .title {
