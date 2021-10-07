@@ -329,12 +329,7 @@ ul {
   color: #ffffff;
 }
 
-.footer-email {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2238px;
-
+.footer-email a:link {
   font-family: inherit;
 
   font-size: 14px;
@@ -343,14 +338,10 @@ ul {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  text-align: left;
 }
 
-.footer-phone {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2268px;
-
+.footer-phone a:link {
   font-family: inherit;
 
   font-size: 14px;
@@ -358,6 +349,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  text-align: left;
 }
 
 .header-email-link.link:hover,
@@ -443,6 +435,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .header .container {
