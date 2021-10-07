@@ -240,12 +240,7 @@ ul {
 
   color: #212121;
   margin-bottom: 10px;
-}
-
-.our-work {
-  /* padding-top: 0; */
-
-  padding-bottom: 94px;
+  text-align: left;
 }
 
 .our-work-title {
@@ -433,6 +428,15 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid red;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 img {
@@ -492,14 +496,6 @@ img {
 
 .filters-list .filters-item + .filters-item {
   margin-left: 8px;
-}
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
 }
 
 .characteristics-list {
