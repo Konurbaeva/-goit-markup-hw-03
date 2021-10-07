@@ -124,12 +124,12 @@ ul {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.2;
-
-  letter-spacing: 0.06em;
   color: #212121;
   text-align: left;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 24px;
+  margin-bottom: 4px;
 }
 
 .cards-list-paragraph {
@@ -145,6 +145,8 @@ ul {
   letter-spacing: 0.03em;
   color: var(--color-grey);
   text-align: left;
+  padding-left: 24px;
+  margin-bottom: 24px;
 }
 /* 
 .logo {
